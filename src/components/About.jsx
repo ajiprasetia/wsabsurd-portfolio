@@ -60,11 +60,9 @@ const About = () => {
             Me
           </span>
         </h2>
-
-        {/* Introduction with Profile Photo */}
+        
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="flex justify-center">
-            {/* Foto Pribadi Bulat - Ganti src dengan foto Anda */}
             <div className="relative">
               <div className="w-80 h-80 rounded-full overflow-hidden border-4 border-purple-500/50 shadow-2xl shadow-purple-500/30">
                 <img
@@ -78,7 +76,7 @@ const About = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-2xl md:text-3xl font-semibold mb-4 text-purple-400">
+            <h3 className="text-xl md:text-3xl font-semibold mb-4 text-purple-400">
               Graphic Designer | Logo Designer | Video Editor
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed text-base md:text-lg text-justify">
@@ -88,33 +86,33 @@ const About = () => {
               latest trends.
             </p>
            <div className="flex flex-wrap gap-3 mt-6">
-              <span className="px-4 py-2 bg-orange-500/20 text-orange-400 rounded-lg text-sm border border-orange-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-orange-600 rounded flex items-center justify-center text-white text-xs font-bold">
+              <span className="px-2 py-2 bg-orange-500/20 text-orange-400 rounded-lg text-xs border border-orange-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-orange-600 rounded flex items-center justify-center text-white text-xs font-bold">
                   Ai
                 </span>
                 Illustrator
               </span>
-              <span className="px-4 py-2 bg-blue-500/20 text-blue-400 rounded-lg text-sm border border-blue-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center text-white text-xs font-bold">
+              <span className="px-2 py-2 bg-blue-500/20 text-blue-400 rounded-lg text-xs border border-blue-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-blue-600 rounded flex items-center justify-center text-white text-xs font-bold">
                   Ps
                 </span>
                 Photoshop
               </span>
-              <span className="px-4 py-2 bg-purple-500/20 text-purple-400 rounded-lg text-sm border border-purple-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-purple-600 rounded flex items-center justify-center text-white text-xs font-bold">
+              <span className="px-2 py-2 bg-purple-500/20 text-purple-400 rounded-lg text-xs border border-purple-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-purple-600 rounded flex items-center justify-center text-white text-xs font-bold">
                   Pr
                 </span>
                 Premiere Pro
               </span>
-              <span className="px-4 py-2 bg-indigo-500/20 text-indigo-400 rounded-lg text-sm border border-indigo-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-indigo-600 rounded flex items-center justify-center text-white text-xs font-bold">
+              <span className="px-2 py-2 bg-indigo-500/20 text-indigo-400 rounded-lg text-xs border border-indigo-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-indigo-600 rounded flex items-center justify-center text-white text-xs font-bold">
                   Ae
                 </span>
                 After Effects
               </span>
 
-              <span className="px-4 py-2 bg-black/20 text-gray-300 rounded-lg text-sm border border-gray-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-black rounded flex items-center justify-center overflow-hidden">
+              <span className="px-2 py-2 bg-black/20 text-gray-300 rounded-lg text-xs border border-gray-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-black rounded flex items-center justify-center overflow-hidden">
                   <img
                     src="/capcut.png"
                     alt="CapCut"
@@ -123,8 +121,8 @@ const About = () => {
                 </span>
                 CapCut
               </span>
-              <span className="px-4 py-2 bg-cyan-500/20 text-cyan-400 rounded-lg text-sm border border-cyan-500/30 flex items-center gap-2 font-semibold">
-                <span className="w-6 h-6 bg-white rounded flex items-center justify-center overflow-hidden">
+              <span className="px-2 py-2 bg-cyan-500/20 text-cyan-400 rounded-lg text-xs border border-cyan-500/30 flex items-center gap-2 font-semibold">
+                <span className="w-5 h-5 bg-white rounded flex items-center justify-center overflow-hidden">
                   <img
                     src="/affinity.png"
                     alt="Canva"
@@ -166,10 +164,10 @@ const About = () => {
                 className="bg-gray-800 p-6 rounded-xl hover:bg-gray-750 transition-all hover:transform hover:scale-105 border border-gray-700 hover:border-purple-500/50 cursor-pointer group"
               >
                 <div className="flex items-center gap-4">
-                  <div className="text-4xl flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">
                     {item.icon}
                   </div>
-                  <h4 className="text-lg font-semibold text-white group-hover:text-purple-400 transition-colors">
+                  <h4 className="text-sm font-semibold text-white group-hover:text-purple-400 transition-colors">
                     {item.title}
                   </h4>
                 </div>
@@ -190,9 +188,9 @@ const About = () => {
                 className="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-purple-500/50 transition-all hover:shadow-lg hover:shadow-purple-500/10"
               >
                 <div className="flex items-start gap-4">
-                  <div className="text-4xl flex-shrink-0">{item.icon}</div>
+                  <div className="text-2xl flex-shrink-0">{item.icon}</div>
                   <div>
-                    <h4 className="text-xl font-semibold text-purple-400 mb-2">
+                    <h4 className="text-xm font-semibold text-purple-400 mb-2">
                       {item.title}
                     </h4>
                     <p className="text-gray-300 leading-relaxed text-sm md:text-base text-justify">
@@ -213,12 +211,12 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="bg-gray-800 p-6 md:p-8 rounded-xl border border-gray-700 hover:border-purple-500/50 transition-all">
               <div className="flex items-start gap-4 mb-4">
-                <div className="w-12 h-12 bg-purple-500/20 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-purple-500/20 rounded-full flex items-center justify-center flex-shrink-0">
                   <GraduationCap className="text-purple-400" size={24} />
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-xl md:text-2xl font-semibold text-white mb-2">
-                    Bachelor of Informatics Engineering
+                  <h4 className="text-xm md:text-2xl font-semibold text-white mb-2">
+                    Informatics Engineering
                   </h4>
                   <p className="text-purple-400 font-medium mb-2">
                     Universitas Islam Negeri Sultan Syarif Kasim
@@ -245,16 +243,15 @@ const About = () => {
             {/* Creative Designer */}
             <div className="bg-gray-800 p-6 md:p-8 rounded-xl border border-gray-700 hover:border-purple-500/50 transition-all">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-purple-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Briefcase className="text-purple-400" size={24} />
+                <div className="w-10 h-10 bg-purple-500/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Briefcase className="text-purple-400" size={20} />
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
                     <div>
-                      <h4 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                      <h4 className="text-xm md:text-2xl font-semibold text-white mb-1">
                         Creative Designer
                       </h4>
-                      <p className="text-purple-400 font-medium">Freelance</p>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <Calendar
@@ -279,18 +276,15 @@ const About = () => {
             {/* Content Creator */}
             <div className="bg-gray-800 p-6 md:p-8 rounded-xl border border-gray-700 hover:border-purple-500/50 transition-all">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-pink-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Briefcase className="text-pink-400" size={24} />
+                <div className="w-10 h-10 bg-pink-500/20 rounded-full flex items-center justify-center flex-shrink-0">
+                  <Briefcase className="text-pink-400" size={20} />
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-3">
                     <div>
-                      <h4 className="text-xl md:text-2xl font-semibold text-white mb-1">
+                      <h4 className="text-xm md:text-2xl font-semibold text-white mb-1">
                         Content Creator
                       </h4>
-                      <p className="text-purple-400 font-medium">
-                        Social Media
-                      </p>
                     </div>
                     <div className="flex items-center gap-2 text-sm">
                       <Calendar
