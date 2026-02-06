@@ -25,21 +25,21 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Video Trailer Zenyland",
-      category: "Video Editing",
-      video: "/project3.mp4",
-      fullDescription: "Zenyland is the top 100 Minecraft server in the world, I was trusted to make the server opening video and server banner",
-      skills: ["Video Editing", "Video Advertising", "Banner Ad Design", "2D Animation", "Logo Animation"],
-      projectUrl: "https://www.instagram.com/reel/DAyY1aoMVuB/"
-    },
-    {
-      id: 4,
       title: "Content Shader MCPE",
       category: "Content Creation",
       image: "/project4.jpg",
       fullDescription: "TOP BEST 3 SHADERS ULTRA REALISTIC TERBAIK RINGAN - Di Minecraft PE 1.21 + dan 1.21.100/101 Chase the Skies MCPE shader Render Dragon  for Low End Device | Shader MCPE MIRIP RTX 1.21/1.22",
       skills: ["Video Production", "Content Creation", "YouTube SEO", "Thumbnail Design", "Gaming Content"],
       projectUrl: "https://www.youtube.com/watch?v=x_WOq-idsYc"
+    },
+    {
+      id: 4,
+      title: "Video Trailer Zenyland",
+      category: "Video Editing",
+      video: "/project3.mp4",
+      fullDescription: "Zenyland is the top 100 Minecraft server in the world, I was trusted to make the server opening video and server banner",
+      skills: ["Video Editing", "Video Advertising", "Banner Ad Design", "2D Animation", "Logo Animation"],
+      projectUrl: "https://www.instagram.com/reel/DAyY1aoMVuB/"
     },
     {
       id: 5,
