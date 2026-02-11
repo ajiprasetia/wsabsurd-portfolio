@@ -1,16 +1,176 @@
-# React + Vite
+# 🚀 WSAbsurd Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio website pribadi yang modern dan responsif, dibangun dengan React dan Tailwind CSS. Website ini menampilkan proyek-proyek, skill, dan informasi kontak dengan desain yang clean dan user-friendly.
 
-Currently, two official plugins are available:
+## ✨ Fitur
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 **Modern UI/UX** - Desain yang clean dan profesional dengan dark theme
+- 📱 **Fully Responsive** - Tampilan optimal di semua perangkat (desktop, tablet, mobile)
+- ⚡ **Fast Performance** - Dibangun dengan Vite untuk loading yang cepat
+- 🧭 **Smooth Navigation** - Navigasi yang smooth dengan scroll spy
+- 💬 **WhatsApp Integration** - Floating WhatsApp button untuk kontak cepat
+- 🎯 **Section Highlights** - Hero, About, Projects, Contact sections
+- 🎭 **Icon Libraries** - Menggunakan Lucide React, React Icons, dan Boxicons
 
-## React Compiler
+## 🛠️ Teknologi yang Digunakan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Core
+- **React** (v18.2.0) - Library JavaScript untuk membangun UI
+- **Vite** (v5.2.0) - Build tool yang cepat dan modern
+- **Tailwind CSS** (v3.4.3) - Utility-first CSS framework
 
-## Expanding the ESLint configuration
+### Libraries & Tools
+- **Lucide React** - Icon library yang modern dan customizable
+- **React Icons** - Koleksi icon populer untuk React
+- **Boxicons** - Icon library dengan berbagai pilihan icon
+- **ESLint** - Linting untuk menjaga kualitas kode
+- **PostCSS** - CSS processing tool
+- **Autoprefixer** - Menambahkan vendor prefixes otomatis
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Quick Start
+
+### Prerequisites
+
+Pastikan Anda sudah menginstall:
+- Node.js (v16 atau lebih tinggi)
+- npm atau yarn
+
+### Installation
+
+1. Clone repository ini
+```bash
+git clone https://github.com/username/wsabsurd-portfolio.git
+cd wsabsurd-portfolio
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Jalankan development server
+```bash
+npm run dev
+```
+
+4. Buka browser dan akses `http://localhost:5173`
+
+## 📝 Available Scripts
+
+```bash
+# Development server
+npm run dev
+
+# Build untuk production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Linting
+npm run lint
+```
+
+## 🎨 Customization
+
+### Mengubah Konten
+
+1. **Hero Section** - Edit `src/components/Hero.jsx`
+2. **About Section** - Edit `src/components/About.jsx`
+3. **Projects** - Edit `src/components/Projects.jsx`
+4. **Contact** - Edit `src/components/Contact.jsx`
+
+### Mengubah Style
+
+- **Colors** - Ubah di `tailwind.config.js`
+- **Global Styles** - Edit `src/index.css`
+- **Component Styles** - Gunakan Tailwind utility classes
+
+### WhatsApp Integration
+
+Edit nomor WhatsApp di `src/components/WhatsAppFloat.jsx`:
+```jsx
+const whatsappNumber = "6281234567890"; // Ganti dengan nomor Anda
+```
+
+## 📦 Build & Deployment
+
+### Build untuk Production
+
+```bash
+npm run build
+```
+
+File production akan tersimpan di folder `dist/`.
+
+### Deployment
+
+Portfolio ini dapat di-deploy ke berbagai platform:
+
+- **Vercel** (Recommended)
+  ```bash
+  npm install -g vercel
+  vercel
+  ```
+
+- **Netlify**
+  - Drag & drop folder `dist/` ke Netlify
+  - Atau gunakan Netlify CLI
+
+- **GitHub Pages**
+  - Push folder `dist/` ke branch `gh-pages`
+  - Enable GitHub Pages di settings repository
+
+## 🌟 Features Highlights
+
+### Navigation
+- Sticky navigation bar
+- Active section highlighting
+- Smooth scroll behavior
+- Mobile-responsive hamburger menu
+
+### Sections
+- **Hero** - Introduction dengan CTA buttons
+- **About** - Skills dan background
+- **Projects** - Portfolio showcase dengan detail
+- **Contact** - Form kontak dan social links
+
+### UI/UX
+- Dark theme yang eye-friendly
+- Smooth animations dan transitions
+- Responsive design untuk semua ukuran layar
+- Loading states dan hover effects
+
+## 🤝 Contributing
+
+Contributions, issues, dan feature requests sangat diterima!
+
+1. Fork project ini
+2. Create feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## 📄 License
+
+Project ini menggunakan [MIT License](LICENSE).
+
+## 👨‍💻 Author
+
+**WSAbsurd**
+
+- Website: [wsabsurd-portfolio.vercel.app](#)
+- GitHub: [@wsabsurd](https://github.com/wsabsurd)
+- LinkedIn: [WSAbsurd](https://linkedin.com/in/wsabsurd)
+
+## 🙏 Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+⭐ Jangan lupa untuk memberikan star jika project ini membantu Anda!
